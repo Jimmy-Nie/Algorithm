@@ -22,4 +22,12 @@
   ![](https://mmbiz.qpic.cn/mmbiz_png/MQ4FoG1HmnIounJsWSXZfDLJt1kG3t5V5iacJHPiaa6gvfcG5GDbOQefIrpGxKyr6DrxakdY5La68OOTDUsHt8XQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 - 查找算法：
-- 最短路径：
+- 最短路径： Astar
+
+## 2. 排序算法
+
+## 3. Astar
+- 需要安装 OpenCV
+- 需要 [安装 XFCE 桌面环境](https://blog.csdn.net/weixin_43003108/article/details/127104885)
+
+启动 x-launch 后，再去运行这个程序

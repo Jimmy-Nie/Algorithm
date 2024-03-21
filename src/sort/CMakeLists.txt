@@ -6,5 +6,11 @@ ELSE ()
     SET(CMAKE_CXX_FLAGS_RELEASE "-O3 -s")#-Wall show all the warning
 ENDIF ()
 
-ADD_SUBDIRECTORY(astar)
-ADD_SUBDIRECTORY(sort)
+FILE(GLOB_RECURSE Sort_SRCs
+        "*.c*"
+        "*.h*"
+        )
+
+#Generate the lib and executable file
+SET(BIN_NAME sort)
+ADD_EXECUTABLE(${BIN_NAME} ${Sort_SRCs})

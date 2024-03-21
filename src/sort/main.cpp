@@ -12,7 +12,7 @@ using namespace std;
 
 const bool debug = false;    ///是否打印排序号的数据
 
-#define arr_size 1024 * 16
+#define arr_size 1024 * 32
 uint32_t g_array[arr_size] = {0};
 
 template<class T>
