@@ -27,7 +27,10 @@
 ## 2. 排序算法
 
 ## 3. Astar
+**1. 准备工作**
 - 需要安装 OpenCV
 - 需要 [安装 XFCE 桌面环境](https://blog.csdn.net/weixin_43003108/article/details/127104885)
 
-启动 x-launch 后，再去运行这个程序
+**2. 注意**
+> 1. 启动 x-launch 后，再去运行这个程序
+> 2. 请务必将astar_map.txt文件，与该程序放到同一个目录下
